@@ -4,7 +4,7 @@
 
 Run the following in a terminal:
 
-`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/master/pre.sh -O pre.sh; sudo bash ./pre.sh`
+`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/master/pre.sh -O pre.sh; bash ./pre.sh`
 
 This will carry out the following actions:
 
@@ -16,7 +16,7 @@ This will carry out the following actions:
 
 Run the following in a terminal:
 
-`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/master/post.sh -O post.sh; sudo bash ./post.sh`
+`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/master/post.sh -O post.sh; bash ./post.sh`
 
 This will carry out the following actions:
 
