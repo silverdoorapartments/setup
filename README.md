@@ -1,1 +1,28 @@
-# setup
+# Habicus Developer Default Install
+
+## pre.sh - to be installed before new developers start
+
+To run, call the following in a terminal:
+
+`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/develop/pre.sh -O pre.sh; sudo bash ./pre.sh`
+
+Running pre.sh will carry out the following actions:
+
+* Install Docker and its dependencies
+* Add the current user to the `docker` group
+* Install the Docker Compose plugin
+
+## post.sh - to be installed by new developers once they start
+
+To run, call the following in a terminal:
+
+`wget -q https://raw.githubusercontent.com/silverdoorapartments/setup/develop/post.sh -O post.sh; sudo bash ./post.sh`
+
+Running post.sh will carry out the following actions:
+
+* Create an SSH key for the current user
+* Prompt the user to add their public key to https://github.com/settings/keys 
+* Create a `~/Projects/` folder
+* Clone the Habicus environment into the Projects folder
+
+After these steps, follow the instructions at https://github.com/silverdoorapartments/environment to continue. 
